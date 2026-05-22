@@ -4,7 +4,7 @@ title Certificate System - Launcher
 
 set "ROOT=%~dp0"
 set "BACKEND=%~dp0backend"
-set "FRONTEND=%~dp0certificate-frontend"
+set "FRONTEND=%~dp0"
 
 echo ================================================
 echo    Certificate System - Full Stack Launcher
