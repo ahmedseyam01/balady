@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "framework": "vite",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/backend/server.js"
+      "destination": "/api/index.js"
     },
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "installCommand": "npm install --legacy-peer-deps"
+  ]
 }
